@@ -1,11 +1,13 @@
-name = "vless-bot-worker"
+name = "cf007"
 main = "worker.js"
-compatibility_date = "2023-12-01"
+compatibility_date = "2024-05-02"
 
-[vars]
-# Ganti dengan UUID kamu (Gunakan uuidgenerator.net)
-UUID = "88888888-4444-4444-4444-121212121212"
-# Ganti dengan Token Bot Telegram dari @BotFather
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-# Ganti dengan ID Telegram kamu (Gunakan @userinfobot)
-ADMIN_ID = "YOUR_TELEGRAM_USER_ID"
+# Jika Anda membutuhkan variabel environment atau KV Namespace, 
+# Anda bisa menambahkannya di bawah ini nanti.
+
+# [vars]
+# KEY = "VALUE"
+
+# [[kv_namespaces]]
+# binding = "MY_KV"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
