@@ -1,0 +1,11 @@
+name = "vless-bot-worker"
+main = "worker.js"
+compatibility_date = "2023-12-01"
+
+[vars]
+# Ganti dengan UUID kamu (Gunakan uuidgenerator.net)
+UUID = "88888888-4444-4444-4444-121212121212"
+# Ganti dengan Token Bot Telegram dari @BotFather
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+# Ganti dengan ID Telegram kamu (Gunakan @userinfobot)
+ADMIN_ID = "YOUR_TELEGRAM_USER_ID"
